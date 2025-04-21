@@ -89,13 +89,21 @@ src/
 
 ---
 
-## 📌 Roadmap
+## 📌 Current Needs
 
-- [ ] Add spaced repetition algorithm
-- [ ] Support multiple exercise types (e.g., fill-in-the-blank, multiple choice)
-- [ ] Save progress locally
 - [ ] Dark mode toggle
 - [ ] Mobile polish
+- [ ] UI Design
+
+---
+
+## 📌 Future Vision
+
+- [ ] Can Make account
+- [ ] Save Progress
+- [ ] Support Anki Decks
+- [ ] Use Space repetition By matching excercise
+- [ ] Different Exercises like Fill in the blanks
 
 ---
 
