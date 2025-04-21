@@ -1,22 +1,28 @@
-Here’s a cleaner, more professional, and visually appealing version of your README, with improved structure, formatting, and clarity. I've also added anchors and consistent formatting for a polished open-source presentation:
 
 ---
 
-# 📘 Memory Match
+# 🧠 Memory Match
 
-Memory Match is a modern, interactive web app that helps you learn vocabulary through fun, dynamic matching exercises. Upload your own custom word list and train your memory with Duolingo-style visual feedback and smart interactions.
+Memory Match is an open-source vocabulary learning app that blends the best of Anki’s spaced repetition with Duolingo-style matching exercises. It's designed to make memorizing words fast, fun, and personal — upload your own word lists and train your brain interactively.
 
-Built with React, TypeScript, and Tailwind CSS, it's fast, responsive, and completely customizable.
+Currently in early development, but the vision is big — and contributions or feedback are more than welcome!
 
 ---
 
-## ✨ Features
+## ✨ What’s the Idea?
 
-- 🔠 Custom Word Upload – Paste or upload your own terms and definitions.
-- 🎯 Matching Exercise – Match terms with the correct definitions in a clean UI.
-- 💡 Smart Feedback – Instant visual indicators for correct or incorrect answers.
-- 🔄 Exercise Regeneration – Shuffle your list and try again for stronger retention.
-- 📱 Responsive Design – Optimized for desktop, tablet, and mobile use.
+- Anki-style spaced repetition for long-term retention
+- Duolingo-inspired matching exercises for active recall
+- Your custom vocab, your pace — no limits!
+
+---
+
+## ⚡ Built With
+
+- ⚛️ React + TypeScript
+- ⚡ Vite for ultra-fast dev experience
+- 💨 Tailwind CSS for styling
+- 🧠 Local component state
 
 ---
 
@@ -25,8 +31,8 @@ Built with React, TypeScript, and Tailwind CSS, it's fast, responsive, and compl
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vocabulary-trainer.git
-cd vocabulary-trainer
+git clone https://github.com/AliveJarvis/memory-match.git
+cd memory-match
 ```
 
 ### 2. Install Dependencies
@@ -35,45 +41,37 @@ cd vocabulary-trainer
 npm install
 ```
 
-### 3. Start the Development Server
+### 3. Start the Dev Server
 
 ```bash
 npm run dev
 ```
 
-Open your browser and navigate to: [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 ---
 
-## 🧪 How It Works
+## 🧪 How It Works (for now)
 
-1. Upload Your Words  
+1. Upload Your Words in a Notepad File. 
    Format:  
    ```
-   term - definition
+   FirstWord Meaning (Spaces separate the Word with Meaning)
+   NextWord Meaning (Next line is for new word)
    ```
 
-2. Click Generate  
-   The app converts your list into randomized exercises.
+2. Generate Exercises  
+   The app creates randomized matching cards.
 
 3. Match Terms  
-   Drag and drop (or click) to match terms to definitions. Get instant visual feedback.
+   Visual feedback helps reinforce correct answers.
 
-4. Practice Again  
-   Click Regenerate to reshuffle and retry until you’ve nailed it!
-
----
-
-## 🛠 Tech Stack
-
-- ⚛️ React + TypeScript
-- 💨 Tailwind CSS
-- 🧠 Local Component State (no backend needed)
-- 🎨 clsx for dynamic class management
+4. Regenerate & Repeat  
+   Shuffle and practice again to build memory.
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (so far)
 
 ```
 src/
@@ -91,27 +89,36 @@ src/
 
 ---
 
+## 📌 Roadmap
+
+- [ ] Add spaced repetition algorithm
+- [ ] Support multiple exercise types (e.g., fill-in-the-blank, multiple choice)
+- [ ] Save progress locally
+- [ ] Dark mode toggle
+- [ ] Mobile polish
+
+---
+
 ## 🙌 Contributing
 
-Pull requests are welcome!  
-Want to add features like fill-in-the-blank, multiple choice, or spaced repetition? Open an issue or PR – let’s collaborate!
+This is an early-stage project with big potential — if you're interested in education tech, React apps, or just building cool tools, feel free to fork, star, or open issues and PRs!
 
 ---
 
 ## 📄 License
 
-MIT – Free to use, modify, and share.
+MIT — free to use, modify, and share.
 
 ---
 
 ## 💡 Inspiration
 
-This project is inspired by Duolingo’s engaging learning methods — reimagined for personal vocab practice with your own content.
+Inspired by Duolingo's interactive UX and Anki's spaced repetition effectiveness, Memory Match aims to deliver the best of both worlds — but fully customizable.
 
 ---
 
 ## ✍️ Author
 
-Made with ❤️ by [Arjun](https://github.com/ArjunChaudhary4)
+Made with love by [Arjun](https://github.com/AliveJarvis)
 
 ---
