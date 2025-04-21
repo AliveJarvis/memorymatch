@@ -47,7 +47,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto p-6">
         <h1 className="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-          <Book className="w-8 h-8" /> Vocabulary Trainer
+          <Book className="w-8 h-8" /> Memory Match
         </h1>
 
         <WordUploader onUpload={handleWordsParsed} />
