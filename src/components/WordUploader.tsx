@@ -3,6 +3,7 @@
 import { ChangeEvent } from "react";
 import { Word } from "../types";
 import { useState } from "react";
+import sample  from '../../assets/sample.png'
 
 interface WordUploaderProps {
   onUpload: (words: Word[]) => void;
@@ -62,7 +63,7 @@ export default function WordUploader({ onUpload }: WordUploaderProps) {
         {showImage ? 'Hide sample file' : 'Show sample file'}
       </button>
       {showImage && (
-        <img src='../../assets/sample.png' alt="Sample" style={imageStyle}/>
+        <img src={sample} alt="Sample" style={imageStyle}/>
       )}
       <label className="block mb-2 font-medium">Upload Word List (.txt):</label>
       <input
